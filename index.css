@@ -1,0 +1,261 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif; 
+}
+body{
+    background-image:url(./ecom1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    /* border: 2px solid blue; */
+    justify-content:space-between;
+    background-color: rgb(21, 21, 70);
+    height: 80px;
+    margin-left: 20px;
+    margin-right: 20px;;
+    padding: 0 30px;
+
+}
+.one{
+display: flex;
+/* border: 2px solid yellow; */
+align-items: center;
+justify-content: space-evenly;
+padding: 20px 0;
+}
+.one i{
+margin-left: 20px;
+color:rgb(162, 207, 26);
+}
+
+
+.one h3{
+color: white;
+padding-left: 30px;
+}
+.search{
+display: flex;
+align-items: center;
+justify-content: center;
+/* border: 2px solid yellow; */
+margin-left: -30px;
+}
+.search input{
+flex: 1;
+border: 0;
+outline: none;
+padding: 5px 10px;
+width: 550px;
+font-size: 20px;
+color:#060337; 
+}
+.search button{
+border: 0;
+width: 32.5px;
+height: 33px;
+cursor: pointer;
+background-color: rgb(162, 207, 26);
+}
+.search button i{
+    color: black;
+}
+.signin{
+display: flex;
+flex-direction: column;
+/* border: 2px solid blue; */
+margin-left: -60px;
+}
+.signin h3 {
+color: white;
+font-size: 12px;
+font-weight: normal;
+}
+.navbar span{
+color: white;
+}
+.shop{
+display: flex;
+flex-direction: column;
+/* border: 2px solid blue; */
+margin-left: -60px;
+}
+.shop h3 {
+color: white;
+font-size: 12px;
+font-weight: normal;
+}
+.shop span{
+color: white;
+
+}
+.cart span{
+margin-right: 50px;
+padding-left: 10px;
+color: white;
+}
+.cart i{
+margin-left: -60px;;
+color: white;
+}
+.maincontent{
+display: grid;
+grid-template-columns: 600px 600px;
+column-gap: 20px;
+background-color: aliceblue;
+position: absolute;
+top: 500px;
+margin-left: 20px;
+margin-right: 20px;
+
+}
+.first{
+display: flex;
+flex-direction: column;
+box-shadow: 0 14px 28px rgba(183, 12, 12, 0.3),0 10px 10px rgba(0,0,0,0.11);
+padding: 20px;
+margin-left: 10px;
+}
+.second{
+display: flex;
+flex-direction: column;
+box-shadow: 0 14px 28px rgba(183, 12, 12, 0.3),0 10px 10px rgba(0,0,0,0.11);
+padding: 20px;
+margin-right: 20px;
+}
+i{
+margin-left: -6px;
+font-size: 18px;
+font-style: normal;
+color:#0ce204;
+}
+.price{
+font-weight: bold;
+}
+.dollar{
+font-size: 14px;
+}
+.imagebutton{
+display: flex;
+flex-direction: column;
+align-items: center;
+/* justify-content: center; */
+justify-content: space-between;
+margin-top: 50px;
+}
+.imagebutton a{
+text-decoration: none;
+background-color: rgb(176, 229, 70);
+margin-top: 100px;
+}
+.electronic{
+display: grid;
+grid-template-columns: 400px 400px 400px;
+background-color: aliceblue; 
+margin-top: 20px;
+}
+.mobile{
+display: flex;
+flex-direction: column;
+margin-left: 10px;
+box-shadow: 0 14px 28px rgba(183, 12, 12, 0.3),0 10px 10px rgba(0,0,0,0.11);
+padding: 20px;
+}
+
+.mobile .imagebutton{
+display: flex;
+flex-direction: column;
+align-items: center;
+/* justify-content: center; */
+justify-content: space-between;
+margin-top: 30px;
+/* margin-bottom: 0; */
+}
+.mobile .imagebutton a{
+text-decoration: none;
+background-color: rgb(176, 229, 70);
+margin-top: 30px;
+}
+
+.tv{
+display: flex;
+flex-direction: column;
+margin-left: 10px;
+box-shadow: 0 14px 28px rgba(183, 12, 12, 0.3),0 10px 10px rgba(0,0,0,0.11);
+padding: 20px;
+}
+
+.tv .imagebutton{
+display: flex;
+flex-direction: column;
+align-items: center;
+/* justify-content: center; */
+justify-content: space-between;
+margin-top: 30px;
+}
+.tv .imagebutton a{
+text-decoration: none;
+background-color: rgb(176, 229, 70);
+margin-top: 30px;
+}
+
+.radio{
+display: flex;
+flex-direction: column;
+margin-left: 10px;
+box-shadow: 0 14px 28px rgba(183, 12, 12, 0.3),0 10px 10px rgba(0,0,0,0.11);
+padding: 20px;
+}
+
+.radio .imagebutton{
+display: flex;
+flex-direction: column;
+align-items: center;
+/* justify-content: center; */
+justify-content: space-between;
+margin-top: 30px;
+}
+.radio .imagebutton a{
+text-decoration: none;
+background-color: rgb(176, 229, 70);
+margin-top: 30px;
+}
+.colortv{
+display: grid;
+grid-template-columns: 1200px;
+background-color: rgb(235, 241, 248);
+margin-left: 10px;
+margin-right: 30px;
+position: absolute;
+top:970px;
+
+}
+.ledtv{
+display: flex;
+flex-direction: column;
+box-shadow: 0 14px 28px rgba(183, 12, 12, 0.3),0 10px 10px rgba(0,0,0,0.11);
+padding: 20px;
+margin-right: 20px;
+margin-left: 0;
+}
+
+.ledtv .imagebutton{
+display: flex;
+flex-direction: column;
+align-items: center;
+/* justify-content: center; */
+justify-content: space-between;
+margin-top: 30px;
+}
+.ledtv .imagebutton a{
+text-decoration: none;
+background-color: rgb(176, 229, 70);
+margin-top: 30px;
+}
